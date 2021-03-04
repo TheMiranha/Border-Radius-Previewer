@@ -1,13 +1,67 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+    height: 100vh;
+    width: 100vw;
+    background-color: #24292E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+}
+
+.container {
+    color: white;
+    border: 1px solid white;
+    padding-top: 10px;
+    /* width: 75vw; */
+    min-width: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.variáveis {
+    margin-top: 20px;
+    display: flex;
+}
+
+.inputs {
+    margin-top: 20px;
+    display: flex;
+}
+
+.slot {
+    margin-right: 10px;
+    height: 20px
+}
+
+.slotp {
+    height: 20px
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result input {
+    text-align: center;
+    padding: 2px;
+    width: 400px;
+    margin-bottom: 20px;
 }
